@@ -8,7 +8,7 @@ const App = () => {
     <>
       <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
-          <Route exact path='/ffxivmechanicsim' render={<Homepage />} />
+          <Route exact path='/ffxivmechanicsim/home' render={<Homepage />} />
           <Route exact path='/ffxivmechanicsim/caloric' render={<Caloric />} />
         </Routes>
       </BrowserRouter>
